@@ -66,6 +66,7 @@ def get_rtl_433_data():
                     leds = [c, d]
                 else:
                     print("OOPS")
+                    leds = []
                     
                 if not leds:
                     break
